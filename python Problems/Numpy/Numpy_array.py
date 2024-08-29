@@ -1,0 +1,22 @@
+import numpy as np;
+a=np.array([1,2,3,4,5])
+print(a)
+print("Dimension of a:",a.ndim)
+print("Size of items in a:",a.itemsize)
+print("Shape of a:",a.shape)
+b=np.array([[1,2],[3,4],[5,6]])
+
+print('++++++++++++++++++++++++++++++++++++++++++++++++++')
+print("2-dimensional array")
+print(b)
+print("Dimension of a:",b.ndim)
+print("Size of items in a:",b.itemsize)
+print("Shape of a:",b.shape)
+print("++++++++++++++++++++++++++++++++++++++++++++++++++")
+c=np.array([[3,4],[5,6]],dtype=np.float64)
+print("2d array with float type")
+print(c)
+print("Dimension of a:",c.ndim)
+print("Size of items in a:",c.itemsize)
+print("Shape of a:",c.shape)
+
